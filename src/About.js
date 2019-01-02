@@ -3,7 +3,10 @@ import './index.css';
 
 class About extends Component {
   componentDidMount() {
-    window.fbq('track', 'Purchase');
+    window.fbq('track', 'Purchase', {
+      value: 19.95,
+      currency: 'USD',
+    });
   }
 
   render() {
