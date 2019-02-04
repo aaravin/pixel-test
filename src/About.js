@@ -3,9 +3,10 @@ import './index.css';
 
 class About extends Component {
   componentDidMount() {
-    window.fbq('track', 'Purchase', {
-      value: 19.95,
-      currency: 'USD',
+    window.fbq('track', 'InitiateCheckout', {
+      content_category: [{name: 'weekday_style', value: 'Business Formal'}],
+      value: 240.00,
+      currency: 'USD'
     });
   }
 
