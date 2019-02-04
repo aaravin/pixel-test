@@ -4,7 +4,7 @@ import './index.css';
 class About extends Component {
   componentDidMount() {
     window.fbq('track', 'InitiateCheckout', {
-      content_category: [{name: 'weekday_style', value: 'Business Formal'}],
+      content_category: 'test',
       value: 240.00,
       currency: 'USD'
     });
