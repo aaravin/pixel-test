@@ -4,6 +4,7 @@ import './index.css';
 class Home extends Component {
   componentDidMount() {
     window.fbq('trackCustom', 'Test1', {
+      brand: 'Thinx',
       value: 10.00
     });
   }

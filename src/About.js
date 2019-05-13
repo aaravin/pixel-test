@@ -12,7 +12,7 @@ class About extends Component {
 
   render() {
     return (
-      <div id='content'>About</div>
+      <div id='content'>About1</div>
     );
   }
 }
