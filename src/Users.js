@@ -3,7 +3,9 @@ import './index.css';
 
 class Users extends Component {
   componentDidMount() {
-    window.fbq('trackCustom', 'Test1', {
+    window.fbq('init', '315044445716656');
+    window.fbq('track', 'Purchase', {
+      brand: 'Icon',
       value: 3.00
     });
   }
